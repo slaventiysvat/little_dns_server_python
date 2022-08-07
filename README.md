@@ -1,7 +1,8 @@
 # little_dns_server_python
-# here I repeated lessons from one youtube channel where I use guide how to create my own dns server
-# Here i included some my own changes
-# So my task looks like:
+
+here I repeated lessons from one youtube channel where I use guide how to create my own dns server
+Here i included some my own changes
+So my task looks like:
 
 # Write a DNS proxy server with support for the "black" list of domain names.
 
@@ -17,8 +18,9 @@
 
 #6. If the request contains a domain name that is not included in the "black" list, the server redirects the request to the upstream server, waits for a response and returns it to the client.
 
-# main function has the name __main__.py, you can call dns server from root folder of repo using command python3 -m dns_app
-# configurations script for blacklist.json folder black_list, 
-# if you want to add new web cite for blacklist, use script black_list_create.py
-# configuration for dns_app - dns_config.json, rewrite config use script dns_config.py
-# forder with zone files in filder zone add here all webcites
+#little user manual
+main function has the name __main__.py, you can call dns server from root folder of repo using command python3 -m dns_app
+configurations script for blacklist.json folder black_list, 
+if you want to add new web cite for blacklist, use script black_list_create.py
+configuration for dns_app - dns_config.json, rewrite config use script dns_config.py
+forder with zone files in filder zone add here all webcites
