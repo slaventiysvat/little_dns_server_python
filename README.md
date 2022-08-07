@@ -19,6 +19,7 @@ So my task looks like:
 #6. If the request contains a domain name that is not included in the "black" list, the server redirects the request to the upstream server, waits for a response and returns it to the client.
 
 #little user manual
+
 main function has the name __main__.py, you can call dns server from root folder of repo using command python3 -m dns_app
 configurations script for blacklist.json folder black_list, 
 if you want to add new web cite for blacklist, use script black_list_create.py
