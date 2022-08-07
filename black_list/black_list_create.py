@@ -7,7 +7,7 @@ blacklist_template = [
 
 to_json = {'blacklist': blacklist_template };
 
-with open('blacklist.json', 'w') as f:
+with open('../black_list/blacklist.json', 'w') as f:
     json.dump(to_json, f)
 
 #with open('sw_templates.json') as f:

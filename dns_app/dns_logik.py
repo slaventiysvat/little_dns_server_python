@@ -1,5 +1,34 @@
 import json, glob
 
+#work with my own dns server 
+#guide taked from https://www.youtube.com/watch?v=sjNaoJ_-cvc&ab_channel=howCode
+#from https://www.ietf.org/rfc/rfc1035.txt
+#Network Working Group                                     P. Mockapetris
+#Request for Comments: 1035                                           ISI
+                                                           #November 1987
+#Obsoletes: RFCs 882, 883, 973
+
+#            DOMAIN NAMES - IMPLEMENTATION AND SPECIFICATION
+#dig howcode.org @127.0.0.1 #chek out server
+#python3 dns_my.py          #call server
+
+#The header contains the following fields:
+ #                                   1  1  1  1  1  1
+ #     0  1  2  3  4  5  6  7  8  9  0  1  2  3  4  5
+ #   +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
+ #   |                      ID                       |
+ #   +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
+ #   |QR|   Opcode  |AA|TC|RD|RA|   Z    |   RCODE   |
+ #   +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
+ #   |                    QDCOUNT                    |
+ #   +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
+ #   |                    ANCOUNT                    |
+ #   +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
+ #   |                    NSCOUNT                    |
+ #   +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
+ #   |                    ARCOUNT                    |
+ #   +--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
+
 def load_zones():
 
     jsonzone = {}
