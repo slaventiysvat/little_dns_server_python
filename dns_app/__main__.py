@@ -1,4 +1,4 @@
-from dns_logik import load_zones,getflags,getquestiondomain,getzone,getrecs,buildquestion,rectobytes,buildresponse
+from dns_logik import load_zones,buildresponse
 import socket
 port = 53
 ip = '127.0.0.1'
