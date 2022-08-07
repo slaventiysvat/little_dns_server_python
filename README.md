@@ -1,10 +1,10 @@
-# little_dns_server_python
+#little_dns_server_python
 
 here I repeated lessons from one youtube channel where I use guide how to create my own dns server
 Here i included some my own changes
 So my task looks like:
 
-# Write a DNS proxy server with support for the "black" list of domain names.
+#Write a DNS proxy server with support for the "black" list of domain names.
 
 #1. For parameters, a configuration file is used, which is read when the server starts;
 
