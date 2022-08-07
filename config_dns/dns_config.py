@@ -1,11 +1,10 @@
 import json
 
-blacklist_template = [
-    'sasisa.com', 'vcontacte.com',
-    'youtube.com', 'spaces.com'
-]
+ip_dns = [ '127.0.0.1'];
 
-to_json = {'blacklist': blacklist_template };
+port_dns = ['53'];
 
-with open('../black_list/blacklist.json', 'w') as f:
+to_json = {'ip': ip_dns, 'port':  port_dns};
+
+with open('dns_config.json', 'w') as f:
     json.dump(to_json, f)
