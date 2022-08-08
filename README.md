@@ -1,6 +1,7 @@
 #little_dns_server_python
 
 here I repeated lessons from one youtube channel where I use guide how to create my own dns server
+https://www.youtube.com/watch?v=HdrPWGZ3NRo&list=PLBOh8f9FoHHhvO5e5HF_6mYvtZegobYX2
 Here i included some my own changes
 So my task looks like:
 
